@@ -2208,7 +2208,7 @@ u8 gTextCourse[][7] = {
     #define ACT_NAME_X        116
     #define LVL_NAME_X        117
     #define SECRET_LVL_NAME_X 94
-    #define MYSCORE_X         62
+    #define MYSCORE_X         72
 #endif
 
 void render_pause_my_score_coins(void) {

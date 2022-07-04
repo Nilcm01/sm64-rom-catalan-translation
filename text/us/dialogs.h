@@ -1,27 +1,30 @@
 // Parameters: dialog enum ID, (unused), lines per box, left offset, width
 
-// FET
 DEFINE_DIALOG(DIALOG_000, 1, 6, 30, 200, _("\
 Uau! Ets al bell mig del\n\
 camp de batalla. Trobarま s\n\
 les Estrelles de Poder que\n\
 en Bowser va robar dins\n\
 els mす ns dels quadres.\n\
+\n\
 Primerament, parla amb el\n\
 col&lega Bob-omb (prem\n\
 [B] per parlar). Tant ell\n\
 com els seus camarades\n\
 d'altres ま rees segur et\n\
 faran un bon cop de mま .\n\
+\n\
 Per a llegir cartells,\n\
 atura't davant d'un i\n\
 prem [B]. Prem [A] o [B]\n\
 per seguir llegint.\n\
+\n\
+\n\
 Tambさ  pots parlar amb\n\
 altres individus\n\
-encarant-hi i prement [B]."))
+encarant-los i\n\
+prement [B]."))
 
-// FET
 DEFINE_DIALOG(DIALOG_001, 1, 4, 95, 200, _("\
 Vigila! Si voltes per aquし \n\
 t'arrisques a ser\n\
@@ -47,7 +50,6 @@ Si us plau, vine a veure'm\n\
 tan bon punt hagis\n\
 recuperat l'Estrella!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_002, 1, 4, 95, 200, _("\
 Ei, tu! Avant さ s perillす s,\n\
 fes-me cas! Et donarさ \n\
@@ -66,7 +68,6 @@ col&legues i som al teu\n\
 al teu costat. Parla'ns\n\
 sempre que vulguis!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_003, 1, 5, 95, 200, _("\
 Grま cies, Mario! El gran\n\
 Bob-Omb ja no さ s mさ s\n\
@@ -84,7 +85,6 @@ Assegura't de parlar\n\
 amb ells, et prepararan\n\
 els canons."))
 
-//FET
 DEFINE_DIALOG(DIALOG_004, 1, 3, 95, 200, _("\
 Nosaltres som Bob-oms\n\
 pacし fics, i per aixた  no\n\
@@ -96,7 +96,6 @@ tu mateix. Et prepararem\n\
 tots els canons d'aquest\n\
 mす n per a tu. Bon Viatge!"))
 
-//FET
 DEFINE_DIALOG(DIALOG_005, 1, 3, 30, 200, _("\
 Ei Mario! De debた \n\
 has derrotat el Gran\n\
@@ -120,7 +119,6 @@ Llestos....\n\
 \n\
 //Endavant/Millor no"))
 
-//FET
 DEFINE_DIALOG(DIALOG_006, 1, 3, 30, 200, _("\
 Ei!!! No m'enganyis.\n\
 Has de cす rrer la\n\
@@ -129,7 +127,6 @@ Si en un altre moment\n\
 vols cす rrer de debた \n\
 vine'm a buscar."))
 
-//FET
 DEFINE_DIALOG(DIALOG_007, 1, 5, 30, 200, _("\
 Ufff... Ufff... ufff...\n\
 Bufa! Ets... Realment...\n\
@@ -137,7 +134,6 @@ Rま pid! Un home bala!\n\
 Aqui la tens, te l'has\n\
 guanyat justament!"))
 
-//FET
 DEFINE_DIALOG(DIALOG_008, 1, 4, 30, 200, _("\
 COMPTE AMB EL\n\
 CHOMP CADENES\n\
@@ -156,7 +152,6 @@ una estrella eixirま \n\
 del prat a l'altre\n\
 costat del pont."))
 
-// FET
 DEFINE_DIALOG(DIALOG_009, 1, 5, 30, 200, _("\
 Quant de temps! Uau,\n\
 t'has tornat rま pid!\n\
@@ -174,7 +169,6 @@ Llest?\n\
 \n\
 //Endavant/Ara no"))
 
-// FET
 DEFINE_DIALOG(DIALOG_010, 1, 4, 30, 200, _("\
 Has premut el Botす  del\n\
 Barret Alat. Amb el\n\
@@ -188,7 +182,6 @@ Vols desar la partida?\n\
 \n\
 //Sし //// No"))
 
-// FET
 DEFINE_DIALOG(DIALOG_011, 1, 4, 30, 200, _("\
 Has premut el Botす  del\n\
 Barret Metま l&lic!\n\
@@ -202,7 +195,6 @@ Vols desar la partida?\n\
 \n\
 //Sし //// No"))
 
-// FET
 DEFINE_DIALOG(DIALOG_012, 1, 4, 30, 200, _("\
 Has premut el Botす  del\n\
 Barret Esvaみ t.\n\
@@ -216,7 +208,6 @@ Vols desar la partida?\n\
 \n\
 //Sし //// No"))
 
-// FET
 DEFINE_DIALOG(DIALOG_013, 1, 5, 30, 200, _("\
 Has aconseguit 100\n\
 monedes! En Mario rep\n\
@@ -224,7 +215,6 @@ mさ s poder del castell.\n\
 Vols desar la partida?\n\
 //Sし //// No"))
 
-//FET
 DEFINE_DIALOG(DIALOG_014, 1, 4, 30, 200, _("\
 Uau! Una altra Estrella!\n\
 En Mario s'encoratja\n\
@@ -234,7 +224,6 @@ Vols desar la partida?\n\
 \n\
 // Esclar// Ara no"))
 
-//FET
 DEFINE_DIALOG(DIALOG_015, 1, 4, 30, 200, _("\
 Pots colpejar enemics per\n\
 derrotar-los. Prem [A]\n\
@@ -248,14 +237,12 @@ Per llenむ ar el que\n\
 duguis a sobre prem\n\
 [B] de nou."))
 
-//FET
 DEFINE_DIALOG(DIALOG_016, 1, 4, 30, 200, _("\
 Salta sobre la closca\n\
 brillant i patina allま \n\
 on vulguis! Carrega't\n\
 tots els enemics!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_017, 1, 4, 30, 200, _("\
 Sす c el Gran Bob-omb, amo\n\
 de tota la matこ ria\n\
@@ -282,19 +269,16 @@ agafar pel darrere i\n\
 llenむ ar-me a la reial\n\
 gespa? Jo diria que no!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_018, 1, 4, 30, 200, _("\
 Tinc molta son...\n\
 I el que menys m'agrada\n\
 さ s que em destorbin.\n\
 Millor camina en silenci."))
 
-//FET
 DEFINE_DIALOG(DIALOG_019, 1, 2, 30, 200, _("\
 Xst! Si us plau, camina\n\
 en silenci al passadし s!"))
 
-//FET
 DEFINE_DIALOG(DIALOG_020, 1, 6, 95, 150, _("\
 Estimat Mario:\n\
 Si us plau, vine al\n\
@@ -303,7 +287,6 @@ un pastし s per a tu.\n\
 Atentament...\n\
 Princesa Toadstool"))
 
-//FET
 DEFINE_DIALOG(DIALOG_021, 1, 5, 95, 200, _("\
 Benvingut.\n\
 Ningせ  さ s a casa!\n\
@@ -311,18 +294,15 @@ Ara toca el dos\n\
 i no tornis mai mさ s!\n\
 Bua ha ha!"))
 
-//FET
 DEFINE_DIALOG(DIALOG_022, 1, 2, 95, 200, _("\
 Necessites una clau per\n\
 obrir aquesta porta."))
 
-//FET
 DEFINE_DIALOG(DIALOG_023, 1, 3, 95, 200, _("\
 Aquesta clau no encaixa!\n\
 Probablement sigui\n\
 del soterrani..."))
 
-//FET
 DEFINE_DIALOG(DIALOG_024, 1, 5, 95, 200, _("\
 Necessites una Estrella\n\
 per obrir aquesta porta.\n\
@@ -330,35 +310,30 @@ recupera'n una d'un enemic\n\
 dins d'un dels quadres\n\
 del castell."))
 
-//FET
 DEFINE_DIALOG(DIALOG_025, 1, 4, 95, 200, _("\
 Necessites el poder de\n\
 3 Estrelles per obrir\n\
 aquesta porta.\n\
 En necessites [%] mさ s."))
 
-//FET
 DEFINE_DIALOG(DIALOG_026, 1, 4, 95, 200, _("\
 Necessites el poder de\n\
 8 Estrelles per obrir\n\
 aquesta porta.\n\
 En necessites [%] mさ s."))
 
-//FET
 DEFINE_DIALOG(DIALOG_027, 1, 4, 95, 200, _("\
 Necessites el poder de\n\
 30 Estrelles per obrir\n\
 aquesta porta.\n\
 En necessites [%] mさ s."))
 
-//FET
 DEFINE_DIALOG(DIALOG_028, 1, 4, 95, 200, _("\
 Necessites el poder de\n\
 50 Estrelles per obrir\n\
 aquesta porta.\n\
 En necessites [%] mさ s."))
 
-//FET
 DEFINE_DIALOG(DIALOG_029, 1, 5, 95, 200, _("\
 Per obrir la porta que\n\
 du a les escales\n\
@@ -366,7 +341,6 @@ du a les escales\n\
 70 Estrelles.\n\
 Bua ha ha!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_030, 1, 6, 30, 200, _("\
 Hola! Aquし  els Lakitu\n\
 Bros. informant en directe\n\
@@ -391,7 +365,6 @@ soroll.\n\
 Fins aquし , els Lakitu\n\
 Bros, des del castell."))
 
-// FET
 DEFINE_DIALOG(DIALOG_031, 1, 5, 30, 200, _("\
 No pot ser! M'has\n\
 venむ ut... De nou!! I\n\
@@ -404,7 +377,6 @@ donar-te l'Estrella\n\
 per haver-me guanyat.\n\
 Enhorabona, Mario!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_032, 1, 5, 30, 200, _("\
 Si agafes el Barret Alat,\n\
 podrま s volar! Posa-te'l\n\
@@ -421,7 +393,6 @@ Utilitza els botons\n\
 voles, i prem [Z]\n\
 per aterrar."))
 
-// FET
 DEFINE_DIALOG(DIALOG_033, 1, 6, 30, 200, _("\
 Ciao! Has arribat al\n\
 castell de la Princesa\n\
@@ -440,7 +411,6 @@ per moure en Mario arreu.\n\
 Ara, dirigeix-te al\n\
 castell."))
 
-// FET
 DEFINE_DIALOG(DIALOG_034, 1, 6, 30, 200, _("\
 \n\
 Bona tarda. Els Lakitu\n\
@@ -477,7 +447,6 @@ Fins aquし , els Lakitu Bros\n\
 al Castell de la\n\
 Princesa Peach."))
 
-// FET
 DEFINE_DIALOG(DIALOG_035, 1, 5, 30, 200, _("\
 Hi ha quatre botons per\n\
 la cま mera『[C]』. Prem\n\
@@ -500,7 +469,6 @@ Lakitu. Prem [C]| per veure\n\
 en Mario des de lluny,\n\
 emprant qualsevol vista."))
 
-// FET
 DEFINE_DIALOG(DIALOG_036, 1, 5, 30, 200, _("\
 PLATAFORMA DE GUAITA\n\
 Prem [C]^ per mirar els\n\
@@ -517,7 +485,6 @@ el mode a 『fixe』 i deixa\n\
 la cま mera quieta mentre\n\
 mantens [R]. Prova-ho!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_037, 1, 2, 30, 200, _("\
 He guanyat! Tu perds!\n\
 Ha ha ha ha!\n\
@@ -525,13 +492,11 @@ No ets pas dolent, perた \n\
 sす c mさ s bon patinador.\n\
 Millor sort la propera!"))
 
-//FET
 DEFINE_DIALOG(DIALOG_038, 1, 3, 95, 200, _("\
 Reaccionant al poder\n\
 de les estrelles, la \n\
 porta s'obre lentament."))
 
-// FET
 DEFINE_DIALOG(DIALOG_039, 1, 5, 30, 200, _("\
 \n\
 No es permeten visites,\n\
@@ -554,13 +519,11 @@ Bさ , d'acord, potser una\n\
 pista: Els noms dels mons.\n\
 /--El Gran Bob-omb"))
 
-// FET
 DEFINE_DIALOG(DIALOG_040, 1, 3, 30, 200, _("\
 Alerta! Escletxa\n\
 ben, ben freda.\n\
 A sota!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_041, 1, 3, 30, 200, _("\
 He guanyat!\n\
 Has perdut!\n\
@@ -571,7 +534,6 @@ Rま pid!\n\
 Que tinguis mさ s sort\n\
 la propera vegada!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_042, 1, 4, 30, 200, _("\
 \n\
 Alerta! Pont Estret!\n\
@@ -590,7 +552,6 @@ la Palanca de Control, i\n\
 per fer-ho rま pidament\n\
 prem el botす  [A]."))
 
-// FET
 DEFINE_DIALOG(DIALOG_043, 1, 5, 30, 200, _("\
 Si saltes i mantens el\n\
 botす  [A] pots agafar-te a\n\
@@ -598,7 +559,6 @@ alguns objectes sobre teu.\n\
 え s el mateix que agafar\n\
 una au a l'aire!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_044, 1, 5, 95, 200, _("\
 Qui hi ha? Qui m'ha\n\
 despertat? Encara さ s\n\
@@ -619,7 +579,6 @@ m'aguantin les plomes.\n\
 Observa la meva ombra\n\
 i agafa-t'hi!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_045, 1, 6, 95, 200, _("\
 Bufa! Estic extenuat.\n\
 Hauries d'afluixar la\n\
@@ -628,7 +587,6 @@ ja n'hi ha prou.\n\
 Prem [A] per aterrar.\n\
 Bさ , doncs, fins aviat!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_046, 1, 5, 30, 200, _("\
 Has de dominar tres\n\
 tこ cniques de salt\n\
@@ -656,19 +614,16 @@ Paret. Practica tot el\n\
 que puguis. No tens cap\n\
 possibilitat sense ells."))
 
-// FET
 DEFINE_DIALOG(DIALOG_047, 1, 2, 95, 200, _("\
 Hola! Prepararさ  el\n\
 canす  per a tu!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_048, 1, 4, 30, 200, _("\
 Cim de la Muntanya\n\
 Nevada. Compte amb\n\
 Relliscar! Si us plau,\n\
 entreu primer a la cabana."))
 
-// FET
 DEFINE_DIALOG(DIALOG_049, 1, 5, 30, 200, _("\
 Recordes com fer el Salt\n\
 de Paret? え s una\n\
@@ -682,7 +637,6 @@ que vulguis per rebotar i\n\
 guanyar acceleraciす .\n\
 La prま ctica fa el mestre!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_050, 1, 4, 30, 200, _("\
 Mantenint [Z] pots ajupir-te\n\
 i lliscar per pendents.\n\
@@ -697,7 +651,6 @@ i salta per fer un Salt\n\
 Llarg! O ajupeix-te i\n\
 camina per... Oblida-ho."))
 
-// FET
 DEFINE_DIALOG(DIALOG_051, 1, 6, 30, 200, _("\
 Enfilar-se さ s fま cil! Quan\n\
 saltis a arbres, pals o\n\
@@ -716,7 +669,6 @@ Salta des d'allま\n\
 i farま s un aterratge\n\
 amb molt d'estil."))
 
-// FET
 DEFINE_DIALOG(DIALOG_052, 1, 5, 30, 200, _("\
 Atura't i prem [Z]\n\
 per ajupir-te, llavors\n\
@@ -728,7 +680,6 @@ torna enrere i salta.\n\
 Pots anar molt lluny\n\
 amb aquests salts."))
 
-// FET
 DEFINE_DIALOG(DIALOG_053, 1, 5, 30, 200, _("\
 De tant en tant, si\n\
 passes a travさ s d'un\n\
@@ -741,7 +692,6 @@ Si arribes fins a\n\
 cinc hi sorgirま  una\n\
 Estrella Secreta."))
 
-// FET
 DEFINE_DIALOG(DIALOG_054, 1, 6, 30, 200, _("\
 Benvingut al tobogan\n\
 nevat! Puja-hi! Per\n\
@@ -750,7 +700,6 @@ endavant la palanca.\n\
 Per frenar, empeny-la\n\
 cap enrrere."))
 
-// FET
 DEFINE_DIALOG(DIALOG_055, 1, 4, 30, 200, _("\
 Ei ei ei Mario! Com va\n\
 tot? Vine, acosta't.\n\
@@ -765,7 +714,6 @@ fem una cursa?\n\
 Preparats... Llestos...\n\
 //Ja!//// Ara no"))
 
-// FET
 DEFINE_DIALOG(DIALOG_056, 1, 5, 30, 200, _("\
 Has destrrrr-ossat\n\
 el meu rこ cord! Increみ ble!\n\
@@ -778,7 +726,6 @@ agafa aquesta Estrella.\n\
 Te l'has guanyada ben\n\
 justament!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_057, 1, 4, 30, 200, _("\
 Egad! Petita!! Has vist\n\
 la meva pingそ ineta??? え s\n\
@@ -793,7 +740,6 @@ agafar arengades i\n\
 glaむ ons, i llavors... Oohh!\n\
 Simplement no ho recordo!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_058, 1, 5, 30, 200, _("\
 Has trobat la meva\n\
 bonica, preciosa\n\
@@ -805,7 +751,6 @@ Oh, tinc aquesta...\n\
 agafa-la i tingues la\n\
 meva eterna gratitud."))
 
-// FET
 DEFINE_DIALOG(DIALOG_059, 1, 3, 30, 200, _("\
 Aquesta no さ s la meva\n\
 pingそ ineta! No\n\
@@ -813,7 +758,6 @@ s'assembla en res a mi!\n\
 Els seus pares deuen\n\
 estar molt preocupats!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_060, 1, 5, 30, 200, _("\
 ALERTA!\n\
 \n\
@@ -845,14 +789,12 @@ Palanca i prem [A] en la\n\
 superfし cie o voltants per\n\
 saltar de capa l'aigua."))
 
-// FET
 DEFINE_DIALOG(DIALOG_061, 1, 4, 30, 200, _("\
 BRRR! Perill de\n\
 glaむ ar-se!\n\
 No nedis aquし . De debた .\n\
 /--El Pingそ し "))
 
-// FET
 DEFINE_DIALOG(DIALOG_062, 1, 4, 30, 200, _("\
 Amagat dins d'aquest\n\
 bloc verd hi ha\n\
@@ -870,7 +812,6 @@ tinguis posada.\n\
 L'せ nic problema?\n\
 Que no podrま s nedar."))
 
-// FET
 DEFINE_DIALOG(DIALOG_063, 1, 5, 30, 200, _("\
 El Barret Esvaみ t さ s dins\n\
 el bloc blau. Fins i tot a\n\
@@ -882,7 +823,6 @@ se'l pot enganyar.\n\
 I, a mさ s, tambさ  pots\n\
 travessar parets secretes."))
 
-// FET
 DEFINE_DIALOG(DIALOG_064, 1, 5, 30, 200, _("\
 Quan agafis el Barret\n\
 Alat, amagat al bloc\n\
@@ -897,7 +837,6 @@ cap endavant farま s un\n\
 picat i prem [Z]\n\
 per aterrar."))
 
-// FET
 DEFINE_DIALOG(DIALOG_065, 1, 6, 30, 200, _("\
 Lliむ ons de Nataciす !\n\
 \n\
@@ -927,7 +866,6 @@ I una darrera cosa:\n\
 No pots obrir portes que\n\
 estiguin sota l'aigua."))
 
-// FET
 DEFINE_DIALOG(DIALOG_066, 1, 5, 30, 200, _("\
 Mario, soc la Peach!\n\
 Si us plau, ves amb\n\
@@ -959,7 +897,6 @@ Bona sort, Mario! El\n\
 nostre destし  さ s a les\n\
 teves mans."))
 
-// FET
 DEFINE_DIALOG(DIALOG_067, 1, 5, 30, 200, _("\
 Mala sort, Mario! La\n\
 Princesa Peach no さ s\n\
@@ -972,7 +909,6 @@ nyicris com tu no tさ  prou\n\
 forむ a per llenむ ar-me!\n\
 Mai de la vida! Ha!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_068, 1, 5, 30, 200, _("\
 Aquesta さ s la Terra\n\
 de Lava! Si et cremes o\n\
@@ -984,7 +920,6 @@ en Mario, nomさ s has de\n\
 tractar de mantenir\n\
 la calma!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_069, 1, 6, 30, 200, _("\
 Pot ser que et topis amb\n\
 parets invisibles als\n\
@@ -993,7 +928,6 @@ quadres. Si xoques\n\
 amb un mur mentre voles,\n\
 caurま s cap avall."))
 
-// FET
 DEFINE_DIALOG(DIALOG_070, 1, 5, 30, 200, _("\
 Pots tornar al\n\
 vestし bul del castell\n\
@@ -1026,7 +960,6 @@ que falten. No cal anar\n\
 a per la que indica\n\
 la pista."))
 
-// FET
 DEFINE_DIALOG(DIALOG_071, 1, 3, 30, 200, _("\
 Perill Imminent!\n\
 Compte amb els nせ vols\n\
@@ -1038,7 +971,6 @@ Cercle: Refugi\n\
 \n\
 Fletxa: Entrada-Sortida"))
 
-// FET
 DEFINE_DIALOG(DIALOG_072, 1, 5, 30, 200, _("\
 Zona de forts vents!\n\
 Vigila't el Barret.\n\
@@ -1046,7 +978,6 @@ Si se't vola, l'haurま s\n\
 de trobar en aquesta\n\
 muntanya.."))
 
-// FET
 DEFINE_DIALOG(DIALOG_073, 1, 4, 95, 200, _("\
 Arrr! Endavant,\n\
 xitxarel&lo! Tenc un\n\
@@ -1065,7 +996,6 @@ que els vols!\n\
 \n\
 //--Es Capitま "))
 
-// FET
 DEFINE_DIALOG(DIALOG_074, 1, 4, 30, 200, _("\
 Pots agafar-te a les\n\
 vores d'un penya-segat\n\
@@ -1080,7 +1010,6 @@ amunt o prem [A] just\n\
 a l'agafar-t'hi per\n\
 pujar-hi de pressa."))
 
-// FET
 DEFINE_DIALOG(DIALOG_075, 1, 5, 30, 200, _("\
 Mario!! El castell es\n\
 troba en gran perill. Sさ \n\
@@ -1113,7 +1042,6 @@ i allibera'ns d'aquesta\n\
 horrible presす !\n\
 T'ho demano per favor!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_076, 1, 6, 30, 200, _("\
 Grま cies al poder de\n\
 les Estrelles, la vida\n\
@@ -1133,12 +1061,10 @@ amb un salt alt dins\n\
 la pintura. Oh, per cert,\n\
 mira quこ  he trobat!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_077, 1, 2, 150, 200, _("\
 Ha estat decretat que\n\
 cal colpejar els pilars."))
 
-// FET
 DEFINE_DIALOG(DIALOG_078, 1, 5, 30, 200, _("\
 Trenca el bloc de les\n\
 Monedes Blaves fent-hi\n\
@@ -1150,7 +1076,6 @@ Les monedes desapareixen\n\
 si no les agafes\n\
 a temps!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_079, 1, 4, 30, 200, _("\
 Ouuu! Deixa'm anar!\n\
 Uukee-kee! Nomさ s em\n\
@@ -1164,11 +1089,9 @@ Llavors, quこ  me'n dius?\n\
 \n\
 //Deixar-lo/ Ara no"))
 
-// FET
 DEFINE_DIALOG(DIALOG_080, 1, 1, 30, 200, _("\
 Eeeh he he he!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_081, 1, 4, 30, 200, _("\
 El misteri さ s de Moll\n\
 o Sec.\n\
@@ -1179,7 +1102,6 @@ visitants amb la\n\
 profunditat que aporten\n\
 quan hi entren."))
 
-// FET
 DEFINE_DIALOG(DIALOG_082, 1, 4, 30, 200, _("\
 Agafa't a la gorra! Si la\n\
 perds, et farま s mal\n\
@@ -1202,7 +1124,6 @@ Bowser tambさ  sす n aquし .\n\
 Ah, mira, agafa aixた .\n\
 T'ho he estat guardant."))
 
-// FET
 DEFINE_DIALOG(DIALOG_083, 1, 6, 30, 200, _("\
 Alguna cosa estranya li\n\
 passa a aquest rellotge.\n\
@@ -1211,7 +1132,6 @@ posiciす  de la busca gran.\n\
 Ei, i mira quこ  he trobat!\n\
 Tさ , Mario, agafa-la!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_084, 1, 3, 30, 200, _("\
 Iauu! Deixa'm, brこ tol!\n\
 Faig tard, molt tard,\n\
@@ -1226,7 +1146,6 @@ Ara deixa'm! Tinc una\n\
 cita! No puc fer\n\
 tard al te!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_085, 1, 5, 30, 200, _("\
 No tindrま s fantasmagた rica\n\
 sort dins aquesta casa. \n\
@@ -1234,20 +1153,17 @@ Si en surts d'una peむ a \n\
 mereixerま s...\n\
 Una Fantasmedalla..."))
 
-// FET
 DEFINE_DIALOG(DIALOG_086, 1, 3, 30, 200, _("\
 Cす rrer en cercles fa a\n\
 alguns dolents rodar\n\
 els ulls."))
 
-// FET
 DEFINE_DIALOG(DIALOG_087, 1, 4, 30, 200, _("\
 El Pare Noel no さ s l'せ nic\n\
 que pot baixar per una\n\
 xemeneia! Entra-hi!\n\
 --Propietari de la Cabana"))
 
-// FET
 DEFINE_DIALOG(DIALOG_088, 1, 5, 30, 200, _("\
 Plataforma Elevadora\n\
 Si voleu baixar d'aquし :\n\
@@ -1255,7 +1171,6 @@ agafeu el pal de\n\
 l'esquerra i descendiu\n\
 amb precauciす ."))
 
-// FET
 DEFINE_DIALOG(DIALOG_089, 1, 5, 95, 200, _("\
 Les dues rutes desborden\n\
 perill! Mira per on vas!\n\
@@ -1271,7 +1186,6 @@ Cercle roig: Elevador 2\n\
 ///// Llac Subterrani\n\
 Fletxa: Ets aquし "))
 
-// FET
 DEFINE_DIALOG(DIALOG_090, 1, 6, 30, 200, _("\
 Bua ha ha ha!\n\
 Has caigut directe a la\n\
@@ -1280,14 +1194,12 @@ previst que faries!\n\
 T'aviso, amic, ves\n\
 amb peus de plom!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_091, 2, 2, 30, 200, _("\
 Perill!\n\
 Fortes ratxes!\n\
 El vent fa el\n\
 viatge cた mode, perた ."))
 
-// FET
 DEFINE_DIALOG(DIALOG_092, 1, 5, 30, 200, _("\
 Ja tornes a molestar,\n\
 Mario? No veus que\n\
@@ -1300,7 +1212,6 @@ castell les necessiten!\n\
 \n\
 Bua ha ha!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_093, 1, 5, 30, 200, _("\
 Mario! Tu de nou!\n\
 Bさ , no passa res,\n\
@@ -1317,14 +1228,12 @@ I no veurま s mai mさ s\n\
 la Princesa!\n\
 Bua ha ha ha!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_094, 1, 4, 30, 200, _("\
 Puja el pendent a tota\n\
 velocitat! Recordes\n\
 el Salt Llarg? Corre,\n\
 prem [Z] i salta!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_095, 1, 4, 30, 200, _("\
 Per llegir un rこ tol,\n\
 atura't al seu davant\n\
@@ -1339,7 +1248,6 @@ les Estrelles robades\n\
 per en Bowser\n\
 d'aquest mす n."))
 
-// FET
 DEFINE_DIALOG(DIALOG_096, 1, 4, 30, 200, _("\
 El camし  さ s mさ s estret\n\
 aquし . Compte! Ningせ  tさ \n\
@@ -1353,7 +1261,6 @@ a ningせ  que dormi!\n\
 Gat escaldat,\n\
 d'aigua freda fuig."))
 
-// FET
 DEFINE_DIALOG(DIALOG_097, 1, 5, 30, 200, _("\
 No siguis beneit! Si algせ \n\
 t'intenta empこ nyer,\n\
@@ -1361,12 +1268,10 @@ torna-t'hi! へ s un un\n\
 contra un, amb un ardent\n\
 final pel perdedor!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_098, 1, 2, 95, 200, _("\
 Vine aquし ...\n\
 ...he he he..."))
 
-// unused // FET
 DEFINE_DIALOG(DIALOG_099, 1, 5, 95, 200, _("\
 Eh he he...\n\
 Ara ets meu, hee hee!\n\
@@ -1374,13 +1279,11 @@ Travessarさ  directament\n\
 la paret. Tu tambさ  pots\n\
 fer-ho? He, he, he!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_100, 1, 3, 95, 200, _("\
 Ukkiki...Wakkiki...kee kee!\n\
 Ha! L'he collit de terra!\n\
 え s meva! Heeheeheeee!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_101, 1, 3, 95, 200, _("\
 Ackk! Deixa... anar...\n\
 M'estま s... fent... mal...\n\
@@ -1392,7 +1295,6 @@ Tot i que a mi em quedi\n\
 millor que a tu!\n\
 Hum! Eeeee! Hee heee!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_102, 1, 5, 30, 200, _("\
 Pssst! Els Boos son molt\n\
 tし mids. Si els mires als\n\
@@ -1405,14 +1307,12 @@ s'esvaeixen. El millor\n\
 さ s colpejar-los per\n\
 darrere silenciosament."))
 
-// FET
 DEFINE_DIALOG(DIALOG_103, 1, 4, 95, 200, _("\
 Sobre les quatre torres\n\
 algせ  s'hi estarま ...\n\
 Llavors al cim\n\
 la llum brillarま ..."))
 
-// FET
 DEFINE_DIALOG(DIALOG_104, 1, 6, 30, 200, _("\
 L'estrella translせ cida\n\
 que veus aquし  さ s un\n\
@@ -1421,7 +1321,6 @@ Quan agafis totes les 8\n\
 Monedes Roges, l'Estrella\n\
 apareixerま  aquし ."))
 
-// FET
 DEFINE_DIALOG(DIALOG_105, 1, 3, 95, 200, _("\
 Preparat per la igniciす !\n\
 Salta dins el canす !\n\
@@ -1436,12 +1335,10 @@ Amb una mica de sort et\n\
 podrま s agafar a arbres\n\
 o pals per aterrar."))
 
-// FET
 DEFINE_DIALOG(DIALOG_106, 1, 2, 95, 200, _("\
 Preparat per l'igniciす !\n\
 Salta dins el canす !"))
 
-// FET
 DEFINE_DIALOG(DIALOG_107, 1, 3, 95, 200, _("\
 Els fantasmes...\n\
 ... no...\n\
@@ -1450,7 +1347,6 @@ He, he, he!\n\
 Podrま s sortir d'aquし ...\n\
 ... amb vida?"))
 
-// FET
 DEFINE_DIALOG(DIALOG_108, 1, 3, 95, 200, _("\
 Boooooo! Ja soc aquし ,\n\
 ja ha arribat el mestre\n\
@@ -1459,7 +1355,6 @@ el pilar del terror,\n\
 en Gran Boo!\n\
 Ha ha ha ha..."))
 
-// FET
 DEFINE_DIALOG(DIALOG_109, 1, 4, 95, 200, _("\
 Oooooh, no!\n\
 Parlant d'experiこ ncies\n\
@@ -1473,7 +1368,6 @@ va genial un nou cos!\n\
 Brrr! Se'm glaむ arま \n\
 la cara al final!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_110, 1, 6, 95, 200, _("\
 Necessito un bon cap a\n\
 les espatlles. Saps\n\
@@ -1482,14 +1376,12 @@ bon cos? Si us plau!\n\
 Et seguirさ  si me\n\
 l'aconsegueixes!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_111, 1, 4, 95, 200, _("\
 Perfecte! Quin nou cos\n\
 mさ s bo! Tさ , さ s un regal\n\
 per tu. Segur que et fa\n\
 entrar en calor."))
 
-// FET
 DEFINE_DIALOG(DIALOG_112, 1, 3, 30, 200, _("\
 Agafa tantes monedes\n\
 com puguis! Reompliran\n\
@@ -1504,7 +1396,6 @@ Com mさ s rapid hi corris\n\
 a travさ s, mさ s salut\n\
 et restablirま ."))
 
-// FET
 DEFINE_DIALOG(DIALOG_113, 1, 6, 30, 200, _("\
 Hi ha Barrets especials\n\
 als blocs rojos, verds,\n\
@@ -1513,7 +1404,6 @@ interruptors dels nivells\n\
 amagats per activar\n\
 els Blocs dels Barrets."))
 
-// FET
 DEFINE_DIALOG(DIALOG_114, 1, 5, 95, 200, _("\
 Em posa de mala lluna!\n\
 Us construみ m les cases,\n\
@@ -1530,7 +1420,6 @@ Tens res a dir? Doncs\n\
 intenta esclafar-me,\n\
 bleda! Ha!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_115, 1, 3, 95, 200, _("\
 No! Altre cop derrotat!\n\
 Nomさ s faig que caure a\n\
@@ -1539,7 +1428,6 @@ Cま sum l'os pedrer!\n\
 Mira, tu guanyes.\n\
 Emporta't aixた  amb tu!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_116, 1, 5, 95, 200, _("\
 Que... quこ eeee?\n\
 Com さ s possible que\n\
@@ -1561,7 +1449,6 @@ tria aquesta Estrella\n\
 des del menせ . Per ara,\n\
 adさ u-siau."))
 
-// FET
 DEFINE_DIALOG(DIALOG_117, 1, 1, 95, 200, _("\
 Qui... caminar... aquし ?\n\
 Qui... trencar... segell?\n\
@@ -1574,7 +1461,6 @@ mま ...\n\
 a...\n\
 mま !"))
 
-// FET
 DEFINE_DIALOG(DIALOG_118, 1, 6, 95, 200, _("\
 Barrabammmmm!\n\
 Quこ ... passar?\n\
@@ -1588,7 +1474,6 @@ Pren Estrella Poder.\n\
 \n\
 Dormir... nos... foscor."))
 
-// FET
 DEFINE_DIALOG(DIALOG_119, 1, 6, 30, 200, _("\
 Grrr! M'he distret.\n\
 Aixた  no ha anat com\n\
@@ -1603,7 +1488,6 @@ perた  et deixarさ  anar\n\
 per ara. Pagarま s per\n\
 aixた ... Mさ s tard!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_120, 1, 4, 30, 200, _("\
 Uuuuaah! Pot ser que\n\
 hagi perdut??? El poder\n\
@@ -1621,7 +1505,6 @@ de la torre.\n\
 T'estarさ  esperant!\n\
 Bua ha ha ha!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_121, 1, 5, 30, 200, _("\
 Nooo!!! No pot ser!\n\
 De debた  m'has derrotat,\n\
@@ -1638,21 +1521,18 @@ Au, tropes! Veguem tots\n\
 junts el final!\n\
 Bua ha ha!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_122, 1, 4, 30, 200, _("\
 El Forat Negre\n\
 Dreta: Elevador\n\
 //   Laberint Boirす s\n\
 Esquerra: Llac Subterrani"))
 
-// FET
 DEFINE_DIALOG(DIALOG_123, 1, 4, 30, 200, _("\
 Cova Fこ rria\n\
 Dreta: La Cascada\n\
 Esquerra: Interruptor\n\
 del Barret Metま l&lic"))
 
-// FET
 DEFINE_DIALOG(DIALOG_124, 1, 4, 30, 200, _("\
 Plataforma Elevadora.\n\
 \n\
@@ -1662,21 +1542,18 @@ L'Elevador continua rumb\n\
 a la direcciす  que marca\n\
 la fletxa activada."))
 
-// FET
 DEFINE_DIALOG(DIALOG_125, 1, 2, 30, 200, _("\
 Sortida del\n\
 Laberint.\n\
 Perill! Tancat.\n\
 Torna enrrere."))
 
-// FET
 DEFINE_DIALOG(DIALOG_126, 2, 4, 30, 200, _("\
 Amunt: Forat Negre\n\
 Dreta: Plataforma\n\
 Elevadora\n\
 // Laberint Boirす s"))
 
-// FET
 DEFINE_DIALOG(DIALOG_127, 3, 4, 30, 200, _("\
 Llac Subterrani\n\
 Dreta: Cova Fこ rria\n\
@@ -1690,14 +1567,12 @@ abaxi el cap.\n\
 No et converteixis en\n\
 el seu menjar."))
 
-// FET
 DEFINE_DIALOG(DIALOG_128, 1, 4, 95, 200, _("\
 Has de lluitar amb\n\
 honor! え s contrari a les\n\
 normes reials llenむ ar el\n\
 rei fora del ring!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_129, 1, 5, 30, 200, _("\
 Benvingut al Mす n de\n\
 l'Interruptor del Barret\n\
@@ -1710,7 +1585,6 @@ enemics i caminar a\n\
 travさ s de moltes coses.\n\
 Prova-ho!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_130, 1, 5, 30, 200, _("\
 Benvingut al Mす n de\n\
 l'Interruptor del Barret\n\
@@ -1723,7 +1597,6 @@ Metま l&lic podrま s caminar\n\
 sota l'aigua!\n\
 Prova-ho!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_131, 1, 5, 30, 200, _("\
 Benvingut al Mす n del\n\
 Barret Alat! Prem\n\
@@ -1746,7 +1619,6 @@ ascendir i cap endavant\n\
 per baixar, com si\n\
 fossis pilotant un aviす ."))
 
-// FET
 DEFINE_DIALOG(DIALOG_132, 1, 4, 30, 200, _("\
 Uau, Mario, nano, no\n\
 tractarま s de fer trampes,\n\
@@ -1757,7 +1629,6 @@ com cal.\n\
 Estま s desqualificat!\n\
 El proper cop sigues just!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_133, 1, 6, 30, 200, _("\
 Com m'alegro de veure't!\n\
 La Princesa... i jo... i,\n\
@@ -1789,7 +1660,6 @@ la porta amb l'estrella\n\
 gran. La Princesa\n\
 deu ser dins!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_134, 1, 5, 30, 200, _("\
 Els noms de les Estrelles\n\
 sす n tambさ  pistes per\n\
@@ -1807,7 +1677,6 @@ provar un altre mす n.\n\
 Estem esperant tots\n\
 la teva ajuda!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_135, 1, 5, 30, 200, _("\
 \n\
 Va ser en Bowser qui\n\
@@ -1830,7 +1699,6 @@ derrotat, tria l'Estrella\n\
 que vas recuperar\n\
 d'ells."))
 
-// FET
 DEFINE_DIALOG(DIALOG_136, 1, 6, 30, 200, _("\
 Uau! Ja tens\n\
 tantes Estrelles?\n\
@@ -1862,7 +1730,6 @@ minimitzar el dany si\n\
 fas un Salt Bomba\n\
 quan t'apropes a terra."))
 
-// FET
 DEFINE_DIALOG(DIALOG_137, 1, 6, 30, 200, _("\
 Grま cies, Mario!\n\
 El castell va recuperant\n\
@@ -1876,13 +1743,11 @@ Estrelles Secretes quan\n\
 agafes 100 monedes en\n\
 cadascun dels 15 mons!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_138, 1, 3, 30, 200, _("\
 Sota: Llac Subterrani\n\
 Esquerra: Forat Negre\n\
 Dreta: Laberint (Tancat)"))
 
-// FET
 DEFINE_DIALOG(DIALOG_139, 1, 6, 30, 200, _("\
 Dalt: Elevador Automま tic\n\
 L'Elevador s'inicia\n\
@@ -1891,7 +1756,6 @@ segueix el camし  establert.\n\
 Desapareix desprさ s\n\
 sol, tambさ ."))
 
-// FET
 DEFINE_DIALOG(DIALOG_140, 1, 6, 30, 200, _("\
 Zona de l'Elevador\n\
 Dreta: Laberint\n\
@@ -1900,7 +1764,6 @@ Esquerra: Forat Negre\n\
 /// Elevador 1\n\
 Fletxa: Ets aquし "))
 
-//FET
 DEFINE_DIALOG(DIALOG_141, 1, 5, 150, 200, _("\
 Ja tens una de les\n\
 Estrelles robades!\n\
@@ -1918,7 +1781,6 @@ no et pots rendir.\n\
 Salva'ns, Mario! Segueix\n\
 cercant Estrelles!"))
 
-//FET
 DEFINE_DIALOG(DIALOG_142, 1, 5, 150, 200, _("\
 Ja tens tres Esrelles\n\
 de Poder! Ara pots\n\
@@ -1931,7 +1793,6 @@ Els enemics que t'esperen\n\
 sす n encara mさ s dolents,\n\
 ves-hi amb compte!"))
 
-//FET
 DEFINE_DIALOG(DIALOG_143, 1, 6, 150, 200, _("\
 Has recuperat vuit\n\
 Estrelles! Ja pots obrir\n\
@@ -1940,7 +1801,6 @@ estrella. Perた  en Bowser\n\
 さ s enfront... No\n\
 sents la Princesa cridar?"))
 
-// FET
 DEFINE_DIALOG(DIALOG_144, 1, 6, 150, 200, _("\
 Ja tens 30 Estrelles!\n\
 Ara ja pots obrir\n\
@@ -1960,7 +1820,6 @@ ha marxat del mar i\n\
 ha anat sota terra.\n\
 Ja l'has acorralat?"))
 
-// FET
 DEFINE_DIALOG(DIALOG_145, 1, 6, 150, 200, _("\
 Ja tens 50 Estrelles!\n\
 \n\
@@ -1979,7 +1838,6 @@ de colors sす n ben せ tils.\n\
 Afanya't. El tercer\n\
 pis さ s just davant."))
 
-// FET
 DEFINE_DIALOG(DIALOG_146, 1, 6, 150, 200, _("\
 Has trobat 70 Estrelles!\n\
 El misteri de les escales\n\
@@ -1988,7 +1846,6 @@ grま cies a tu, i segur\n\
 has enrabiat en Bowser!\n\
 Ara, al combat final!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_147, 1, 5, 30, 200, _("\
 \n\
 Ja fas servir els Blocs\n\
@@ -2011,7 +1868,6 @@ l'Alat, verd pel\n\
 Metま l&lic i blau per\n\
 l'Esvaみ t."))
 
-// FET
 DEFINE_DIALOG(DIALOG_148, 1, 6, 30, 200, _("\
 Davant, la Muntanya del\n\
 Ninot de Neu.\n\
@@ -2026,7 +1882,6 @@ recuperarま  sola quan\n\
 hi surtis.\n\
 //--El ninot de neu"))
 
-// FET
 DEFINE_DIALOG(DIALOG_149, 1, 3, 30, 200, _("\
 Benvingut al tobogan\n\
 secret de la Princesa!\n\
@@ -2040,7 +1895,6 @@ i enrere per frenar.\n\
 Si baixes prou rま pid\n\
 guanyarま s l'Estrella!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_150, 1, 5, 30, 200, _("\
 Buaaa! M'has inundat la\n\
 casa! Pe-per quこ ??\n\
@@ -2058,7 +1912,6 @@ Estrella... さ s tan\n\
 brillant, perた  em fa\n\
 sentir... estranya..."))
 
-// FET
 DEFINE_DIALOG(DIALOG_151, 1, 4, 30, 200, _("\
 No puc mさ s amb tu!\n\
 Primer em deixes tota\n\
@@ -2068,7 +1921,6 @@ M'estま s enrabiant de\n\
 mala, mala manera!\n\
 Uaaaaaaaaaaaaaaaaa!!!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_152, 1, 3, 30, 200, _("\
 Au! Prou! Prou!\n\
 D'acord, em rendeixo.\n\
@@ -2083,7 +1935,6 @@ Em fan sentir... en pau.\n\
 Si us plau, torna de\n\
 visita quan vulguis."))
 
-// FET
 DEFINE_DIALOG(DIALOG_153, 1, 4, 30, 200, _("\
 Ei! Qui hi ha?\n\
 Quこ  m'estま  escalant?\n\
@@ -2093,7 +1944,6 @@ Sigui el que sigui,\n\
 em molesta! Doncs\n\
 crec que l'esbufegarさ !"))
 
-// FET
 DEFINE_DIALOG(DIALOG_154, 1, 5, 30, 200, _("\
 Agafa't a la gorra! Si\n\
 la perds, et farま s mal\n\
@@ -2110,7 +1960,6 @@ mons enemics dins dins\n\
 castell a part dels\n\
 dels quadres, oi?"))
 
-// FET
 DEFINE_DIALOG(DIALOG_155, 1, 6, 30, 200, _("\
 Grま cies al poder de les\n\
 Estrelles, la vida\n\
@@ -2130,7 +1979,6 @@ d'aigua, pots inundar-la\n\
 entrant-hi fent un salt\n\
 alt dins al quadre."))
 
-// FET
 DEFINE_DIALOG(DIALOG_156, 1, 5, 30, 200, _("\
 El mす n dins el\n\
 rellotge さ s estrany!\n\
@@ -2138,7 +1986,6 @@ Quan hi saltis dins,\n\
 atent a la posiciす \n\
 de la minutera!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_157, 1, 4, 30, 200, _("\
 Compte! Que no se\n\
 t'empassin les arenes\n\
@@ -2152,7 +1999,6 @@ t'asfixiarま s.\n\
 Les zones fosques sす n\n\
 pous sense fons."))
 
-// FET
 DEFINE_DIALOG(DIALOG_158, 1, 6, 30, 200, _("\
 1. Si saltes repetidament\n\
 en instants precisos\n\
@@ -2166,7 +2012,6 @@ salta. Podrま s arribar\n\
 mさ s amunt utilitzant\n\
 el Salt de Paret."))
 
-// FET
 DEFINE_DIALOG(DIALOG_159, 1, 4, 30, 200, _("\
 3. Si t'atures, prem [Z]\n\
 per ajupir-te, desprさ s\n\
@@ -2176,14 +2021,12 @@ Per fer un Salt Llarg\n\
 corre de pressa, prem [Z]\n\
 i desprさ s salta."))
 
-// FET
 DEFINE_DIALOG(DIALOG_160, 1, 4, 30, 200, _("\
 Prem [B] mentre corres\n\
 rま pid per lliscar amb\n\
 el cos. Per llevar-te,\n\
 prem [A] o [B]."))
 
-// FET
 DEFINE_DIALOG(DIALOG_161, 1, 4, 30, 200, _("\
 Mario!!!\n\
 Ets realment tu?\n\
@@ -2230,7 +2073,6 @@ aventura digital\n\
 en catalま !』\n\
 Projecte 'Ce Trencada'"))
 
-// FET
 DEFINE_DIALOG(DIALOG_162, 1, 4, 30, 200, _("\
 No, no, no! Tu de nou!\n\
 Tinc molta pressa,\n\
@@ -2245,7 +2087,6 @@ Bま sicament, aixた  さ s tot.\n\
 Ja me n'he d'anar.\n\
 Auuu! Deixa'm anar!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_163, 1, 5, 30, 200, _("\
 Nooo! Sお  que m'has\n\
 derrotat aquest cop,\n\
@@ -2273,7 +2114,6 @@ segueix donant-li canya\n\
 al comandament!\n\
 Buaa ha ha!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_164, 1, 4, 30, 200, _("\
 Mario! Quこ , com va?\n\
 No he estat al tobogan\n\
@@ -2287,7 +2127,6 @@ Preparats... Llestos...\n\
 \n\
 //Ja//// Ara no"))
 
-// FET
 DEFINE_DIALOG(DIALOG_165, 1, 5, 30, 200, _("\
 No assumeixo cap mena de\n\
 responsabilitat per\n\
@@ -2295,14 +2134,12 @@ aquells que es maregin\n\
 i es desmaみ n al donar\n\
 voltes a aquest rこ tol."))
 
-// FET
 DEFINE_DIALOG(DIALOG_166, 1, 4, 30, 200, _("\
 Tornarさ  aviat.\n\
 Sす c entrenant ara,\n\
 vine mさ s tard.\n\
 //--Koopa el Rま pid"))
 
-// FET
 DEFINE_DIALOG(DIALOG_167, 1, 4, 30, 200, _("\
 El castell de la\n\
 Princesa さ s davant\n\
@@ -2315,7 +2152,6 @@ cartell o agafar quelcom.\n\
 Prem [B] de nou per\n\
 deixar-ho anar."))
 
-// FET
 DEFINE_DIALOG(DIALOG_168, 1, 5, 30, 200, _("\
 Ei! Prou ja! Aquesta さ s\n\
 la segona vegada que\n\
@@ -2323,7 +2159,6 @@ em trepitjes. Tu t'ho\n\
 has buscat. Ara rebrま s,\n\
 lampista del dimoni!"))
 
-// FET
 DEFINE_DIALOG(DIALOG_169, 1, 4, 30, 200, _("\
 Ep, tu, arruix! Si goses\n\
 entrar en aquesta cova\n\

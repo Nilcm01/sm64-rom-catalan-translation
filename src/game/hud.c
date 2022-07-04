@@ -340,7 +340,7 @@ void render_hud_timer(void) {
             break;
     }
 #else
-    print_text(GFX_DIMENSIONS_RECT_FROM_RIGHT_EDGE(150), 185, "TIME");
+    print_text(GFX_DIMENSIONS_RECT_FROM_RIGHT_EDGE(150), 185, "TEMPS");
 #endif
 
     print_text_fmt_int(GFX_DIMENSIONS_RECT_FROM_RIGHT_EDGE(91), 185, "%0d", timerMins);

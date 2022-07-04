@@ -1796,10 +1796,10 @@ void print_save_file_star_count(s8 fileIndex, s16 x, s16 y) {
     #define MARIOTEXT_X1 92
     #define MARIOTEXT_X2 207
 #elif defined(VERSION_US)
-    #define SELECT_FILE_X 93
+    #define SELECT_FILE_X 47
     #define SCORE_X 52
-    #define COPY_X 117
-    #define ERASE_X 177
+    #define COPY_X 116
+    #define ERASE_X 171
     #define SOUNDMODE_X1 sSoundTextX
     #define SAVEFILE_X1 92
     #define SAVEFILE_X2 209
@@ -1933,8 +1933,8 @@ void score_menu_display_message(s8 messageID) {
     #define ERASEFILE_X1 228
 #elif defined(VERSION_US)
     #define RETURN_X     44
-    #define COPYFILE_X1  135
-    #define ERASEFILE_X1 231
+    #define COPYFILE_X1  142
+    #define ERASEFILE_X1 240
 #elif defined(VERSION_EU)
     #define RETURN_X     centeredX
     #define COPYFILE_X1  centeredX
@@ -2019,12 +2019,12 @@ void print_score_menu_strings(void) {
     #define COPYCOMPLETE_X 90
     #define SAVE_EXISTS_X1 90
 #elif defined(VERSION_US)
-    #define NOFILE_COPY_X  119
-    #define COPY_FILE_X    104
-    #define COPYIT_WHERE_X 109
-    #define NOSAVE_DATA_X2 101
-    #define COPYCOMPLETE_X 110
-    #define SAVE_EXISTS_X1 110
+    #define NOFILE_COPY_X  114
+    #define COPY_FILE_X    78
+    #define COPYIT_WHERE_X 125
+    #define NOSAVE_DATA_X2 125
+    #define COPYCOMPLETE_X 115
+    #define SAVE_EXISTS_X1 125
 #elif defined(VERSION_EU)
     #define NOFILE_COPY_X  centeredX
     #define COPY_FILE_X    centeredX
@@ -2134,14 +2134,14 @@ void copy_menu_update_message(void) {
     #define VIEWSCORE_X1 133
     #define ERASEFILE_X2 220
 #elif defined(VERSION_US)
-    #define VIEWSCORE_X1 128
+    #define VIEWSCORE_X1 133
     #define ERASEFILE_X2 230
 #elif defined(VERSION_EU)
     #define VIEWSCORE_X1 centeredX
     #define ERASEFILE_X2 centeredX
 #elif defined(VERSION_SH)
-    #define VIEWSCORE_X1 133
-    #define ERASEFILE_X2 230
+    #define VIEWSCORE_X1 145
+    #define ERASEFILE_X2 241
 #endif
 
 /**
@@ -2303,10 +2303,10 @@ void print_erase_menu_prompt(s16 x, s16 y) {
     #define MARIO_ERASED_X   90
     #define SAVE_EXISTS_X2   90
 #elif defined(VERSION_US)
-    #define ERASE_FILE_X     98
-    #define NOSAVE_DATA_X3   100
+    #define ERASE_FILE_X     78
+    #define NOSAVE_DATA_X3   122
     #define MARIO_ERASED_VAR 6
-    #define MARIO_ERASED_X   100
+    #define MARIO_ERASED_X   115
     #define SAVE_EXISTS_X2   100
 #elif defined(VERSION_EU)
     #define ERASE_FILE_X     centeredX
@@ -2411,8 +2411,8 @@ void erase_menu_update_message(void) {
     #define VIEWSCORE_X2 133
     #define COPYFILE_X2 223
 #else
-    #define VIEWSCORE_X2 127
-    #define COPYFILE_X2 233
+    #define VIEWSCORE_X2 145
+    #define COPYFILE_X2 241
 #endif
 
 /**
@@ -2504,7 +2504,7 @@ void print_sound_mode_menu_strings(void) {
     print_hud_lut_string(HUD_LUT_DIFF, 47, 32, textSoundSelect[sLanguageMode]);
     print_hud_lut_string(HUD_LUT_DIFF, 47, 101, textLanguageSelect[sLanguageMode]);
 #else
-    print_hud_lut_string(HUD_LUT_DIFF, SOUND_HUD_X, 35, textSoundSelect);
+    print_hud_lut_string(HUD_LUT_DIFF, SOUND_HUD_X-43, 35, textSoundSelect);
 #endif
 
     gSPDisplayList(gDisplayListHead++, dl_rgba16_text_end);
@@ -2673,14 +2673,14 @@ void print_score_file_star_score(s8 fileIndex, s16 courseIndex, s16 x, s16 y) {
     #define FILE_LETTER_X 95
     #define LEVEL_NUM_PAD 3
     #define SECRET_STARS_PAD 6
-    #define LEVEL_NAME_X 23
-    #define STAR_SCORE_X 171
+    #define LEVEL_NAME_X 0
+    #define STAR_SCORE_X 191
 #ifdef VERSION_EU
     #define MYSCORE_X get_str_x_pos_from_center(257, textMyScore[sLanguageMode], 10.0f)
     #define HISCORE_X get_str_x_pos_from_center(257, textHiScore[sLanguageMode], 10.0f)
 #else
-    #define MYSCORE_X 238
-    #define HISCORE_X 231
+    #define MYSCORE_X 254
+    #define HISCORE_X 246
 #endif
 #endif
 
@@ -2741,7 +2741,7 @@ void print_save_file_scores(s8 fileIndex) {
     print_menu_generic_string(LEVEL_NAME_X + (pad * LEVEL_NUM_PAD), 23 + 12 * courseIndex, \
                               segmented_to_virtual(levelNameTable[courseIndex - 1])); \
     print_score_file_star_score(fileIndex, courseIndex - 1, STAR_SCORE_X, 23 + 12 * courseIndex); \
-    print_score_file_course_coin_score(fileIndex, courseIndex - 1, 213, 23 + 12 * courseIndex);
+    print_score_file_course_coin_score(fileIndex, courseIndex - 1, 213 + 20, 23 + 12 * courseIndex);
 
     // Course values are indexed, from Bob-omb Battlefield to Rainbow Ride
     PRINT_COURSE_SCORES(COURSE_BOB, 1)
