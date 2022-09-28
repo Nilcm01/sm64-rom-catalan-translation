@@ -1,7 +1,7 @@
 # Super Mario 64 en Català (Rom N64)
 
 La traducció catalana de Super Mario 64 ha estat duta a terme per **Nil CM** amb **Projecte 'Ce Trencada'** per gaudir el joc en la nostra llengua.
-Ha estat traduït en tres versions diferents: **PC (Windows/Linux)**, ROM de Nintendo 64 i Android; cadascun partint dels repositoris base indicats.
+Ha estat traduït en tres versions diferents: PC (Windows/Linux), **ROM de Nintendo 64** i Android; cadascun partint dels repositoris base indicats.
 
 La versió del Port a PC pren com a base el [Projecte de Decompilació de la ROM de N64](https://github.com/n64decomp/sm64).
 Aquest projecte **no** està relacionat, de cap manera, amb els equips responsables d'aquest projecte o amb Nintendo.
